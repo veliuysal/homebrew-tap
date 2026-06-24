@@ -6,6 +6,7 @@ Homebrew tap for [arc-dev](https://github.com/veliuysal/arc-dev).
 
 ```sh
 brew tap veliuysal/tap
+brew trust veliuysal/tap
 brew install arc-dev
 ```
 

@@ -1,27 +1,27 @@
 class ArcDev < Formula
   desc "Command-line tools for Arc network development"
   homepage "https://github.com/veliuysal/arc-dev"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/veliuysal/arc-dev/releases/download/v0.1.0/arc-dev-0.1.0-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/veliuysal/arc-dev/releases/download/v0.1.1/arc-dev-0.1.1-aarch64-apple-darwin.tar.gz"
       sha256 "UPDATE_AFTER_RELEASE"
     end
     on_intel do
-      url "https://github.com/veliuysal/arc-dev/releases/download/v0.1.0/arc-dev-0.1.0-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/veliuysal/arc-dev/releases/download/v0.1.1/arc-dev-0.1.1-x86_64-apple-darwin.tar.gz"
       sha256 "UPDATE_AFTER_RELEASE"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/veliuysal/arc-dev/releases/download/v0.1.0/arc-dev-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/veliuysal/arc-dev/releases/download/v0.1.1/arc-dev-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
       sha256 "UPDATE_AFTER_RELEASE"
     end
     on_intel do
-      url "https://github.com/veliuysal/arc-dev/releases/download/v0.1.0/arc-dev-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/veliuysal/arc-dev/releases/download/v0.1.1/arc-dev-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
       sha256 "UPDATE_AFTER_RELEASE"
     end
   end
